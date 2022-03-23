@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/app_color">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Name"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:maxWidth="300dp"
+                android:minWidth="200dp"
+                android:padding="5dp"
+                android:text="Head Line	"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Link"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Date"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|start"
+         >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Toi"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="We have a really strong squad for Davis Cup: Rohan Bopanna."
+                android:textColor="@color/black"
+                android:textSize="14sp"
+              />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:id="@+id/l1"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:onClick="sendMessage"
+                android:padding="5dp"
+                android:text="https://tinyurl.com/dfuhr8hk"
+                android:textAlignment="textStart"
+                android:textColor="@color/app_color"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="2dp"
+                android:text="Friday, February 18th 2022, 12:32:30 am"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|start"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="The hindu"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="We have shown to world, India can pull off big events despite COVID-19 challenge: Tata Open Organisers"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:id="@+id/l2"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="https://tinyurl.com/3dw63td2"
+                android:textColor="@color/app_color"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Friday, February 18th 2022, 12:32:30 am"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center|start"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Olympics"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Ramanathan in top 100 of doubles for first time after fine start to 2022"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:id="@+id/l3"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="https://tinyurl.com/y2mr24kt"
+                android:textColor="@color/app_color"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center|start"
+                android:padding="5dp"
+                android:text="Friday, February 18th 2022, 12:32:30 am"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+    </LinearLayout>
+
+
+</HorizontalScrollView>

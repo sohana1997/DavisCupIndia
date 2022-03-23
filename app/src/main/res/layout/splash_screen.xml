@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:fitsSystemWindows="true">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:alpha=".5"
+        android:src="@drawable/splash_bg">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99005366" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_logo"></androidx.appcompat.widget.AppCompatImageView>
+
+
+    <TextView
+        android:layout_below="@id/logo"
+        android:id="@+id/lorem_ipsum"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal|top"
+        android:text="Delhi Gymkhana Club \n 4th and 5th Mar. 2022 \n India vs Denmark"
+        android:textAppearance="@style/lorem_ipsum"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

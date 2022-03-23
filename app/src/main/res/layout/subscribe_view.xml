@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/app_color">
+
+    <!-- Subscribe ! -->
+    <TextView
+        android:id="@+id/subscribe_"
+        android:layout_width="205dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Subscribe !"
+        android:letterSpacing="0.03"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textAppearance="@style/subscribe_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Subscribe to get information, latest news and other interesting offers -->
+    <TextView
+        android:id="@+id/subscribe_t"
+        android:layout_width="315dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:letterSpacing="0.05"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal|top"
+        android:text="Subscribe to get information, latest news and other interesting offers"
+        android:textAppearance="@style/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subscribe_" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subscribe_t">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/et_bg"
+            android:ems="10"
+            android:hint="your@email.com"
+            android:inputType="textEmailAddress"
+            android:paddingStart="8dp"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/subscribe_t"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/subscribe_t"
+            app:layout_constraintTop_toBottomOf="@+id/subscribe_t" />
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/ic_send_bg"
+            android:src="@drawable/ic_send"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextTextEmailAddress2"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextEmailAddress2"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextEmailAddress2"
+            app:layout_constraintVertical_bias="0.0" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

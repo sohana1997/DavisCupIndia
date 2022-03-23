@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLive"
+    android:visibility="gone"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Headline News -->
+    <TextView
+        android:id="@+id/headline_ne"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Live Streaming"
+        android:textAppearance="@style/headline_ne" />
+
+    <include
+        android:id="@+id/liveView_app"
+        layout="@layout/app_img_view_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headline_ne" />
+
+
+</RelativeLayout>

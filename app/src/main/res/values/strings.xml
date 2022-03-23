@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TENNIS IN INDIA</string>
+    <string name="welcome">Welcome</string>
+    <string name="lorem_ipsum">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_">"Don’t have an Account Sign Up "</string>
+    <string name="email_addre">"Email Address "</string>
+    <string name="password">Password</string>
+    <string name="forgot_pass">"Forgot password? "</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Gallery</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="news_headline">WHAT’s TRENDING</string>
+    <string name="already_have_an_account_login">Already have an Account Login</string>
+    <string name="media">Media</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="submit">Submit</string>
+    <string name="about_us">About Us</string>
+    <string name="davis_cup_about_us">Davis Cup is one of the most prestigious international team event in the sport of Tennis. It is organized by the International Tennis Federation and is held every year in a knock-out format amongst teams from various countries.\n\nOn the 4th and 5th of March, 2022, the Delhi Gymkhana Club will host India\'s World Group play-off versus Denmark. While the Delhi Gymkhana Club has staged tennis competitions in the past, it is the first time in decades that an international tennis competition is being held at the Delhi Gymkhana Club.\n\nThe Club was founded on the 3rd of July 1913 in the Coronation Grounds in Delhi for the benefit of the ruling elite, which included officers of the Indian Civil Service, the Armed Forces, and civil residents of the city at the time. During 1928, the Imperial Delhi Gymkhana Club was given 27.3 acres of property in Lutyens Delhi.\n\nThe club has a total of 27 grass courts, 4 hard courts, and 3 flex Cushion Courts on its campus, making it the country\'s largest grass court complex, with grass courts that are on par with, if not better than, the Wimbledon Grass Courts.</string>
+    <string name="contact_us">Contact us</string>
+    <string name="new_password">New password</string>
+</resources>

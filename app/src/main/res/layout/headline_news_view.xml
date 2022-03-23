@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Headline News -->
+    <TextView
+        android:id="@+id/headline_ne"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/news_headline"
+        android:textAppearance="@style/headline_ne" />
+
+    <!-- See More News -->
+    <TextView
+        android:id="@+id/see_more_ne"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="14dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="See More News"
+        android:textAppearance="@style/see_more_ne" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newsList"
+        android:layout_below="@id/headline_ne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:listitem="@layout/headline_news_itme"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
+</RelativeLayout>

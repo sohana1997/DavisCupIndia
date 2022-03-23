@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">34.209.194</domain>
+        <domain includeSubdomains="true">34.209.194.196</domain>
+        <domain includeSubdomains="true">img.youtube.com</domain>
+        <domain includeSubdomains="true">tennisinindia.com:2023</domain>
+        <domain includeSubdomains="true">tennisinindia.com</domain>
+    </domain-config>
+</network-security-config>
